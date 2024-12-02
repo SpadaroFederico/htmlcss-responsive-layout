@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 50px;
     display: flex;
     align-items: center;
@@ -17,7 +17,181 @@ header .logo{
     font-size: 30px;
 }
 
+main{
+    font-family: "Montserrat", sans-serif;
+    background-color: #F6F5F3;
+}
 
+#info-ricetta .category{
+    font-size: 12px;
+}
+
+.container{
+    /* DEBUG */
+    /* background-color: gray ;
+    height: 200px; */
+
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 20px;
+}
+
+.row{
+    display: flex;
+}
+
+.container .part-video{
+    /* DEBUG */
+    /* background-color: blue;
+    height: 100px; */
     
+    width: 70%;
+}
+
+.part-video img{
+    max-width: 100%;
+}
+
+.container .part-ricetta{
+    /* DEBUG */
+    /* height: 100px; */
+
+    background-color: #fff;
+    width: 30%;
+}
+
+.part-ricetta h4{
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.part-ricetta p{
+    margin-left: 25px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.part-ricetta span{
+    font-weight: bold;
+}
+
+nav{
+    display: flex;   
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+nav .social{
+    background-color: #fff;
+    padding: 10px;
+    width: 18%;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: black 1px solid;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+    
+nav i{
+    margin-right: 5px;
+}
    
+.banner{
+    /* DEBUG */
+    /* background-color: red;
+    height: 60px; */
+}
    
+.banner img{
+    max-width: 100%;
+}
+
+.presentation{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+hr{
+    height: 2px;
+    background-color: #FF9614;
+    margin-top: 20px;
+    width: 10%;
+    border: 0;
+}
+
+.container-procedimento{
+    /* DEBUG */
+    /* height: 150px; */
+
+    margin-top: 20px;
+    padding-bottom:60px;
+}
+
+.container-procedimento img{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+
+.container-procedimento p{
+    line-height: 30px;
+}
+
+footer{
+    height: 80px;
+    background-color: #7C69A4;
+    display: flex;
+}
+
+.indirizzo{
+    /* DEBUG */
+    /* background-color: chartreuse; */
+    /* height: 100%; */
+    
+    width: 50%;
+}
+
+.links-footer{
+    /* DEBUG */
+    /* background-color: chartreuse; */
+    /* height: 100%; */
+
+    width: 50%;
+}
+
+.indirizzo .email{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.indirizzo .info{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.links-footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.links-footer a{
+    color: #fff;
+    margin-left: 20px;
+}
+
